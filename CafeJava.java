@@ -10,7 +10,7 @@ public class CafeJava {
         // Menu variables (add yours below)
         double mochaPrice = 3.5;
         double dripCoffeePrice = 3.0;
-        double caramelLattePrice = 3.0;
+        double caramelLattePrice = 5.0;
         double mochaCappuccinoPrice = 3.5;
     
         // Customer name variables (add yours below)
@@ -34,7 +34,7 @@ public class CafeJava {
         System.out.println(customer1 + readyMessage + "!");
         
         // Noah
-        if (isReadyOrder4 == false) {
+        if (isReadyOrder4) {
             System.out.println(customer4 + pendingMessage);
         }
         else {
